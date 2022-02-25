@@ -86,7 +86,7 @@ describe('index.html', () => {
         let foodPicsArr = foodPics.innerHTML.split(/src=/i);
         // shift is to get rid of initial index that splits before the i tag
         foodPicsArr.shift();
-
+        console.log(foodPicsArr);
         expect(foodPicsArr.length).toBe(9);
     });
 
