@@ -82,7 +82,7 @@ h3 {
 h4 {
     font-size: 1.3rem;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 p, a {
@@ -136,7 +136,7 @@ header {
 }
 
 .menu-section{
-    border: 1px solid orchid;
+    /* border: 1px solid orchid; */
     width: 33%;
     /* padding: 5%; */
     margin: 3% 6%;
@@ -147,24 +147,27 @@ header {
 }
 
 .item{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     
 }
 
-.alLeft{
-text-align: left;
-text-justify: auto;
+.splitL{
+    width: 50%;
+    /* display: flex; */
+    text-align: left;
+    text-justify: auto;
 }
 
-.alRight{
-text-align: right;
-text-justify: auto;
+.splitR{
+    width: 50%;
+    /* display: flex; */
+    text-align: right;
 }
 
-.descrip{
+/* .descrip{
     border: 1px solid rgb(141, 213, 231);
-}
+} */
 
 /* footer section */
 footer {
