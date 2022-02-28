@@ -55,6 +55,7 @@ html {
     max-width: 1920px;
     min-width: 428px;
     font-size: 62.5%;
+    color: whitesmoke;
 }
 
 body {
@@ -118,8 +119,21 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
 }
 
+.menu h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-section{
+    border: 1px solid orchid;
+    width: 50%;
+}
 /* footer section */
 footer {
     width: 100%;
