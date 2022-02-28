@@ -68,19 +68,21 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 4rem;
+    font-size: 1.3rem;
+    width: 100%;
+    border: 1px solid red;
 }
 
 p, a {
@@ -122,6 +124,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
     border: 1px solid red;
 }
 
@@ -132,8 +137,35 @@ header {
 
 .menu-section{
     border: 1px solid orchid;
-    width: 50%;
+    width: 33%;
+    /* padding: 5%; */
+    margin: 3% 6%;
 }
+
+.secTitle {
+    display: flex;
+}
+
+.item{
+    border: 1px solid orange;
+    display: flex;
+    
+}
+
+.alLeft{
+text-align: left;
+text-justify: auto;
+}
+
+.alRight{
+text-align: right;
+text-justify: auto;
+}
+
+.descrip{
+    border: 1px solid rgb(141, 213, 231);
+}
+
 /* footer section */
 footer {
     width: 100%;
