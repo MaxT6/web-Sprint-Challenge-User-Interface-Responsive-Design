@@ -92,6 +92,36 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15%;
+    text-align: center;
+    z-index: 1;
+    margin: 2%;
+  }
+
+  /* Facebook */
+.fa-facebook {
+    background: #eff0f3;
+    color: white;
+    z-index: 1;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #ebeff1;
+    color: white;
+    z-index: 1;
+  }
+
+/* Instagram */
+.fa-instagram {
+    background: #fafbfc;
+    color: white;
+  }
 
 
 /* spacers */
