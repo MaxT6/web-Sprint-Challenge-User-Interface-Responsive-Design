@@ -55,38 +55,50 @@ html {
     max-width: 1920px;
     min-width: 428px;
     font-size: 62.5%;
-    color: whitesmoke;
+    /* color: white; */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    /* background-color: rgb(0, 4, 17); */
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    z-index: 1;
 }
 
 h1 {
     font-size: 4rem;
+    z-index: 1;
 }
 
 h2 {
     font-size: 3rem;
+    z-index: 1;
 }
 
 h3 {
     font-size: 2rem;
+    z-index: 1;
 }
 
 h4 {
     font-size: 1.3rem;
     width: 100%;
+    z-index: 1;
     /* border: 1px solid red; */
+}
+
+.description {
+    font-size: 1rem;
+    z-index: 1;
 }
 
 p, a {
     font-size: 3rem;
+    z-index: 1;
 }
 
 /* header section */
@@ -97,6 +109,49 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.box {
+    height: 32%;
+    background-color: rgb(0, 0, 0, .5);
+    width: 100%;
+    position: absolute;
+}
+
+.box2 {
+    height: 125%;
+    background-color: rgb(0, 4, 17, .8);
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.title a {
+    color: white;
 }
 
 /* spacer */
@@ -117,7 +172,8 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .9);
+    width: 100;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,11 +184,14 @@ header {
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     border: 1px solid red;
+    color: white;
+    z-index: 1;
 }
 
 .menu h2 {
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 .menu-section{
@@ -140,13 +199,14 @@ header {
     width: 33%;
     /* padding: 5%; */
     margin: 3% 6%;
+    z-index: 1;
 }
 
 .secTitle {
     display: flex;
 }
 
-.item{
+.menu-item{
     /* border: 1px solid orange; */
     display: flex;
     
